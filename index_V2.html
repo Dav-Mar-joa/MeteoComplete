@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style_V2.css">
+</head>
+<body>
+    <div id="app">
+        <h1 class = "encadrement_tete">Weather or not ?!</h1>
+        <h1 class = "encadrement"></h1><input type="text" id="city" placeholder="Enter une ville : ">
+        <button id="getWeather">Gooooo !!!</button>
+        <button id="found_me">Localise-moi !</button>
+        
+        <!-- <button id="found_me"><img src="icon/locate_me2.png" width="20%"> Localise moi !</button> -->
+       
+        <div class="bubble-container">
+            <div class="bubble" id="bubble">
+                <table  id="weatherInfo">
+                    <!-- Le contenu sera ajouté par JavaScript -->
+                </table>
+            </div>
+            <!-- <div class="second-bubble" id="second-bubble">
+                <table id="weatherInfo2"></table>
+            </div>
+            <br>
+            <div class="third-bubble" id="third-bubble">
+                <table id="weatherInfo3"></table>
+            </div> -->
+        </div>
+    </div>
+    <script src="app_V2.js"></script>
+</body>
+</html>

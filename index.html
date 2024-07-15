@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1 class = "encadrement_tete">Weather or not ?!</h1>
+        <h1 class = "encadrement"></h1><input type="text" id="city" placeholder="Enter une ville : ">
+        <button id="getWeather">Gooooo !!!</button>
+        <div class="bubble-container">
+            <div class="bubble" id="bubble">
+                <table  id="weatherInfo">
+                    <!-- Le contenu sera ajouté par JavaScript -->
+                </table>
+            </div>
+            <div class="second-bubble" id="second-bubble">
+                <table id="weatherInfo2"></table>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
